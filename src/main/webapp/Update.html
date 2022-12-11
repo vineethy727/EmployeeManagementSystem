@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div
+            {
+                margin: auto;
+                width: 400px;
+                background-color: white;
+                box-shadow: 2px;
+                border-radius: 25px;
+            }
+           
+            input{
+                border-radius: 20px;
+                padding: 5px;
+            }
+            h3
+            {
+                font-size: 30px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+                
+            }
+            body{
+                background-image: url("ems2.jpg");
+                background-repeat: no-repeat;
+                background-size: 1550px 900px;
+                
+            }
+            select
+            {
+                border-radius: 25px;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body><br>
+        <div><br><h3>update details</h3>
+            <form action="Update" method="post">
+                <table align="center" cellpadding="5px">
+                    <tr><td>Name</td><td><input type="text" name="name"></td></tr>
+                    
+                    <tr><td>Password</td><td><input type="password" name="pswd"></td></tr>
+                    
+                    <tr><td>MobileNo</td><td><input type="tel" name="mobno"></td></tr>
+                    
+                    <tr><td>Email</td><td><input type="email" name="mail"></td></tr> 
+
+                    <tr><td>Gender</td><td><input type="radio" value= "male" name="gender">Male<input type="radio" value="female" name="gender">Female</td></tr>                    
+
+                    <tr><td>Address</td><td><input type="text" name="addr"></td></tr>
+                    
+                    <tr><td>City</td><td><input type="text" name="city"></td></tr>
+					                 
+                    <tr><td>state</td><td><input type="text" name="state"></td></tr>
+                                      
+                    <tr><td><input type="reset" value="reset"></td><td><input type="submit" value="Update"></td></tr>  
+                    
+                </table>
+            </form><br>
+        </div>
+    </body>
+</html>
